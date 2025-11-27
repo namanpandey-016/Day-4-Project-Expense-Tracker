@@ -3,7 +3,7 @@ import google.generativeai as genai
 import pyttsx3
 import speech_recognition as sr
 
-key = "AIzaSyChmitMjN0DL9cOz197bpEw3tbsjnmYFmc"
+key = "YOU-API-KEY-HERE"
 mic = sr.Recognizer()
 with sr.Microphone() as source:
     print("Start speaking...")
@@ -22,7 +22,7 @@ while True:
         
         break
     response = model.generate_content(response)
-    print("Yuvi :", response.text)
+    print("Bot :", response.text)
 
 
 
