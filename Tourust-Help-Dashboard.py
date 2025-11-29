@@ -59,7 +59,10 @@ st.write("-- You must have login to whatsapp web to directly send us message")
 message = st.text_input("Enter the message you wants to send")
 
 if st.button("Send Message"):
-    pywhatkit.sendwhatmsg_instantly(f"+91" , f"{message}")
+    pywhatkit.sendwhatmsg_instantly("+91XXXXXXXXXX" , f"{message}")
+    
+
+
     
 
 #Codes that i used in about.py..................................................................................................................................................
